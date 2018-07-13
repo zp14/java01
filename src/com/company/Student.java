@@ -6,6 +6,7 @@ public class Student extends Person{
    private String grade;
    private double score;
 
+
     public Student(String name, int age, String sex, String stuNum, String grade, double score) {
         super(name, age, sex);
         this.stuNum = stuNum;
